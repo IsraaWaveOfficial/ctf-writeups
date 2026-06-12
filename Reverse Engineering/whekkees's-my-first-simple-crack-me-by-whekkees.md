@@ -62,7 +62,7 @@ python3 fuzzer.py
 ```
 ### Helper Script
 I created a separate repository for the fuzzing script. You can view and run the full code here: 
-👉 [View fuzzer.py on GitHub](https://github.com/thefinalbit/my-security-scripts/blob/main/Fuzzer.py)
+👉 [View fuzzer.py on GitHub](https://github.com/thefinalbit/my-security-scripts/blob/main/Fuzzer/Fuzzer.py)
 
 When I entered long strings starting with `qwert` or `whekkees`, the program crashed immediately with **Exit Code 53**. This showed me that the program has a defense mechanism to stop people from breaking it.
 
