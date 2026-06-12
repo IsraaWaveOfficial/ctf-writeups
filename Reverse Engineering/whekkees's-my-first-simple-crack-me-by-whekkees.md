@@ -54,6 +54,15 @@ I learned that some challenges do not have a standard flag (like random characte
 
 ### Step 1: Testing with Fuzzing
 I designed a fuzzing strategy to test the binary with different payload lengths, and I used AI assistance to generate the helper Python script (`fuzzer.py`). 
+### How to Run the Fuzzer:
+To use the fuzzing script, make sure you have Python installed, then run the following command in your terminal:
+
+```bash
+python3 fuzzer.py
+```
+### Helper Script
+I created a separate repository for the fuzzing script. You can view and run the full code here: 
+👉 [View fuzzer.py on GitHub](https://github.com/thefinalbit/my-security-scripts/blob/main/Fuzzer.py)
 
 When I entered long strings starting with `qwert` or `whekkees`, the program crashed immediately with **Exit Code 53**. This showed me that the program has a defense mechanism to stop people from breaking it.
 
